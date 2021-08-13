@@ -1,0 +1,494 @@
+    body {
+        background: #f1f1f1;
+    }
+    /* Navbar */
+    
+    .navbar-brand {
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-style: italic;
+        padding-left: 50px;
+    }
+    
+    .navbar-brand span {
+        color: #4c40f7;
+    }
+    
+    .navbar ul {
+        padding-left: 50%;
+        font-weight: 500 !important;
+        font-size: 16px;
+    }
+    
+    .navbar ul li a:hover {
+        color: black !important;
+    }
+    
+    .navbar ul li {
+        margin-left: 30px;
+    }
+    
+    .navbar ul li a {
+        color: #111029 !important;
+    }
+    
+    h1 {
+        font-family: Poppins, sans-serif;
+        font-weight: 800;
+        font-size: 62px;
+    }
+    
+    .name {
+        text-align: center;
+        color: #4c40f7;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Poppins, sans-serif;
+    }
+    /* Line */
+    
+    .line {
+        display: inline-block;
+        width: 25%;
+        margin-right: 10px;
+        height: 1.5px;
+        background-color: #4c40f7;
+    }
+    
+    .line-div {
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+    /* End of line */
+    /* .bunner { */
+    /* background: whitesmoke; */
+    /* height: 80vh; */
+    /* } */
+    
+    .head {
+        padding: 120px 0 0 0;
+    }
+    
+    .about {
+        padding: 5% 8% !important;
+        background: #fff;
+        /* height: 100vh; */
+    }
+    /* Skills */
+    
+    .custom-card {
+        height: 50vh;
+        width: 80%;
+        border: none;
+    }
+    
+    .other-title {
+        color: #111029;
+        /* margin: 2%; */
+        font-size: 3em;
+    }
+    /* Resume */
+    
+    .resume {
+        font-family: Poppins, sans-serif;
+    }
+    
+    .resume .resume-title {
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        color: #4c40f7;
+        text-align: center;
+    }
+    
+    .resume .resume-item {
+        padding: 0 0 10px 20px;
+        margin-top: -2px;
+        border-left: 2px solid #111029;
+        position: relative;
+    }
+    
+    .resume .resume-item h4 {
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #4c40f7;
+        margin-bottom: 10px;
+    }
+    
+    .resume .resume-item h5 {
+        font-size: 13px;
+        /* background: ; */
+        padding: 5px 15px;
+        font-family: "Poppins", sans-serif;
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #111029;
+    }
+    
+    .resume .resume-item ul {
+        padding-left: 30px;
+    }
+    
+    .resume .resume-item ul li {
+        padding-bottom: 10px;
+        color: #111029;
+    }
+    
+    .resume .resume-item .custom-li ul li {
+        padding-bottom: 40px;
+    }
+    
+    .resume .resume-item:last-child {
+        padding-bottom: 0;
+    }
+    
+    .resume .resume-item::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        left: -9px;
+        top: 0;
+        background: #111029;
+        border: 2px solid #4c40f7;
+    }
+    
+    .resume .resume-item-custom {
+        padding: 0 0 20px 20px;
+        margin-top: -2px;
+        position: relative;
+    }
+    
+    .black-primary {
+        color: #111029;
+    }
+    
+    .resume .resume-item-custom h4 {
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        margin-bottom: 10px;
+        margin-left: -20px;
+    }
+    
+    .resume .resume-item-custom ul {
+        padding-left: 20px;
+    }
+    
+    .resume .resume-item-custom ul li {
+        padding-bottom: 4px;
+    }
+    
+    .about-cont h1 {
+        font-size: 2.5em;
+        margin-bottom: 50px;
+    }
+    
+    .about-cont h2 {
+        font-family: Poppins, sans-serif;
+        font-weight: bolder;
+        font-size: 6.5em;
+        margin-bottom: 50px;
+    }
+    
+    .btn {
+        font-family: Poppins, sans-serif;
+        font-weight: bold;
+    }
+    
+    .btn:hover {
+        background: #111029;
+    }
+    
+    .sec-title {
+        text-align: center;
+        margin-bottom: 100px;
+        font-weight: bold;
+    }
+    
+    .project {
+        width: 100%;
+        background-color: #fff;
+        /* padding: auto 90% !important; */
+        height: 90vh;
+    }
+    
+    .box {
+        width: 400px;
+        height: 300px;
+        position: relative;
+        top: 70%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    
+    .box:hover {
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, 1);
+        transition: box-shadow 0.2s 0.5s linear;
+    }
+    
+    .main-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .box-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 3;
+        transform: translateY(75px);
+        transition: transform 0.2s 0.2s linear;
+    }
+    
+    .item {
+        font: bold 20px/24px Arial, sans-serif;
+        margin-bottom: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-shadow: 0 0 1px #000;
+    }
+    
+    .description {
+        font: 16px/24px Arial, sans-serif;
+        margin-bottom: 24px;
+        height: 72px;
+        overflow: hidden;
+    }
+    
+    .box:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #000;
+        opacity: 0.2;
+        transition: opacity 0.2s linear;
+    }
+    
+    .box:hover:after {
+        opacity: 0.7;
+    }
+    
+    .interactive {
+        display: flex;
+    }
+    
+    .interactive .item svg {
+        flex-shrink: 0;
+        margin-right: 10px;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        fill: #fff;
+    }
+    
+    .interactive .item {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        font-size: 14px;
+    }
+    
+    .interactive .item:last-child {
+        justify-content: flex-end;
+    }
+    
+    .box:before {
+        content: " ";
+        border-radius: 8px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        bottom: 20px;
+        right: 20px;
+        border: 1px solid #fff;
+        z-index: 2;
+        pointer-events: none;
+        transition: transform 0.2s linear, opacity 0.2s linear;
+        transform: scale(0.7);
+        opacity: 0;
+    }
+    
+    .show-animate {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.2s 0.2s linear;
+    }
+    
+    .box:hover .show-animate {
+        opacity: 1;
+        transform: translateY(0);
+        transition: transform 1s linear;
+    }
+    
+    .box:hover .box-content {
+        transform: translateY(0);
+    }
+    
+    .box:hover:before {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+    .show-item {
+        transition: transform 0.2s linear, opacity 0.2s linear;
+        opacity: 0;
+    }
+    
+    .show-item:first-child {
+        transform: translateX(-20px);
+        margin-left: 40px;
+    }
+    
+    .show-item:last-child {
+        transform: translateX(20px);
+        margin-right: 40px;
+    }
+    
+    .box:hover .show-item {
+        transform: translateX(0);
+        opacity: 1;
+        transition: transform 0.2s 0.4s linear, opacity 0.2s 0.4s linear;
+    }
+    /* Skills */
+    
+    .skills {
+        padding: 130px auto !important;
+    }
+    
+    .cardo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        width: 22em;
+        max-width: 80%;
+        padding: 2em 0;
+        background: #fff;
+        box-shadow: 0 0 6px 0 rgba(32, 32, 36, .12);
+        transition: all 0.35s ease;
+    }
+    
+    .cardo::before,
+    .cardo::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #000;
+        height: 4px;
+    }
+    
+    .cardo::before {
+        width: 0;
+        opacity: 0;
+        transition: opacity 0 ease, width 0 ease;
+        transition-delay: 0.5s;
+    }
+    
+    .cardo::after {
+        width: 100%;
+        background: white;
+        transition: width 0.5s ease;
+    }
+    
+    .cardo .content {
+        width: 18em;
+        max-width: 80%;
+    }
+    
+    .cardo .logo {
+        margin: 0 0 1em;
+        width: 18%;
+        height: 4em;
+        object-fit: cover;
+        transition: all 0.35s ease;
+    }
+    
+    .cardo h6 {
+        color: #999;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0;
+        letter-spacing: 2px;
+    }
+    
+    .cardo .hover_content {
+        overflow: hidden;
+        max-height: 0;
+        transform: translateY(1em);
+        transition: all 0.55s ease;
+    }
+    
+    .cardo .hover_content p {
+        margin: 1.5em 0 0;
+        color: #6e6e70;
+        line-height: 1.4em;
+    }
+    
+    .cardo:hover {
+        width: 24em;
+        box-shadow: 0 10px 20px 0 rgba(32, 32, 36, .12);
+    }
+    
+    .cardo:hover::before {
+        width: 100%;
+        opacity: 1;
+        transition: opacity 0.5s ease, width 0.5s ease;
+        transition-delay: 0;
+    }
+    
+    .cardo:hover::after {
+        width: 0;
+        opacity: 0;
+        transition: width 0 ease;
+    }
+    
+    .cardo:hover .logo {
+        margin-bottom: 0.5em;
+    }
+    
+    .cardo:hover .hover_content {
+        max-height: 10em;
+        transform: none;
+    }
+    
+    footer {
+        height: 50px;
+        background: #000;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+    }
+    
+    footer:hover {
+        color: #007b5e;
+    }
+    /* Other Pro */
